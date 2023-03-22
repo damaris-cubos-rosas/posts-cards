@@ -6,7 +6,7 @@ const cardInfo = async ()=>{
     let wrapper = document.getElementById("cards")
     elements.forEach(item =>{
         let{id, title, body} = item
-        wrapper.appendChild(createCard(id, title))
+        wrapper.appendChild(createCard(id, title,setNumber))
     })
 }
 

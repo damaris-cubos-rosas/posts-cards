@@ -15,8 +15,8 @@ const getPost = async () => {
 const postInfo = async() => {
     let info = await getPost()
     let cardSecondary = document.querySelector("#post-card")
-    let {title, body} = info
-    cardSecondary.appendChild(postCard(title,body))
+    let {title, body,id} = info
+    cardSecondary.appendChild(postCard(title,body,id))
 
 }
 

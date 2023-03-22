@@ -22,12 +22,12 @@ const createCard = (id, title) => {
 }
 
 
-const postCard = (title, body) => {
+const postCard = (title, body,id) => {
     let divPostCard = document.createElement("div")
     divPostCard.classList.add("card")
     let cardImg = document.createElement("img")
     cardImg.classList.add("card-img-top")
-    cardImg.src = "https://picsum.photos/id/237/200/300"
+    cardImg.src = `https://picsum.photos/id/${id}/100`
     let divPostBody = document.createElement("div")
     divPostBody.classList.add("card-body","text-center")
     let postTitle = document.createElement("h5")
