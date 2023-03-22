@@ -1,1 +1,27 @@
-/*# sourceMappingURL=styles.css.map */
+body#post-catalog {
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.card {
+  height: 150px;
+}
+
+.btn {
+  background-color: mediumvioletred;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: white;
+  color: mediumvioletred;
+  border: 1px solid mediumvioletred;
+  font-weight: bold;
+}
+
+#post-card .card {
+  width: 20rem;
+  height: 45rem;
+  margin: 0 auto;
+  border: 2px solid darkblue;
+}/*# sourceMappingURL=styles.css.map */
